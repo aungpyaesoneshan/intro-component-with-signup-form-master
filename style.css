@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Karla:wght@400;700&family=PT+Sans&family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  background-image: url(/images/bg-intro-desktop.png);
+  background-color: hsl(0, 100%, 74%);
+}
+.text-container {
+  width: 500px;
+  height: 280px;
+  padding: 0;
+}
+.text-container h1 {
+  font-size: 40px;
+  line-height: 50px;
+}
+.text-container p {
+  font-weight: 300;
+}
+
+.form-container {
+  width: 400px;
+  height: 500px;
+}
+.price-tag {
+  background-color: hsl(248, 32%, 49%);
+  width: 100%;
+  height: 45px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 5px;
+
+  margin-bottom: 30px;
+  box-shadow: 0 5px 10px hsl(249, 10%, 26%);
+}
+.price-tag span {
+  color: lightgray;
+  font-weight: 400;
+}
+.form {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: rgba(128, 128, 128, 0.801);
+  gap: 23px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px hsl(249, 10%, 26%);
+}
+.form input,
+.form button,
+.form p {
+  width: 80%;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+  border: none;
+  border: 2px solid gray;
+}
+.form div {
+  width: 80%;
+  position: relative;
+}
+.form div img {
+  display: none;
+  width: 20px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+.form div h5 {
+  display: none;
+  position: absolute;
+  top: 22px;
+  right: 0;
+  font-weight: 200;
+  font-size: 12px;
+  font-style: italic;
+  color: hsl(0, 100%, 74%);
+}
+.form div input {
+  width: 92%;
+  margin-right: 0;
+  padding-left: 20px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.form button {
+  border: none;
+  width: 80%;
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  font-weight: 600;
+  box-shadow: 0 3px 5px hsl(249, 10%, 26%);
+
+  cursor: pointer;
+}
+.form p {
+  border: none;
+  font-size: 13px;
+}
+.form p span {
+  color: hsl(0, 100%, 74%);
+  font-weight: 600;
+}
+@media screen and (max-width: 1084px) {
+  .text-container {
+    width: 420px;
+  }
+  .form-container {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .text-container {
+    width: 300px;
+  }
+  .text-container h1 {
+    font-size: 33px;
+    line-height: 37px;
+  }
+  .text-container p {
+    font-size: 14px;
+  }
+  .form-container {
+    width: 300px;
+  }
+  .price-tag {
+    font-size: 13px;
+  }
+  .form {
+    height: 430px;
+  }
+  .form div input {
+    font-size: 13px;
+  }
+
+  .form button {
+    width: 81%;
+    margin-left: 4px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .container {
+    height: 950px;
+    flex-direction: column;
+    text-align: center;
+    gap: 0;
+  }
+  .text-container {
+    width: 340px;
+    margin-top: 60px;
+  }
+
+  .text-container h1 {
+    font-size: 28px;
+  }
+  .form-container {
+    width: 320px;
+  }
+}
