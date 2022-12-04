@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Happycloud250/intro-component-with-signup-form-master]
-- Live Site URL: [https://happycloud250.github.io/intro-component-with-signup-form-master/]
+- Solution URL: [https://github.com/aungpyaesoneshan/intro-component-with-signup-form-master]
+- Live Site URL: [https://aungpyaesoneshan.github.io/intro-component-with-signup-form-master/]
 
 ## My process
 
